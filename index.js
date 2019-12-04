@@ -5,3 +5,12 @@
 
 let todos = ['item1', 'item2', 'item3'];
 console.log('My Todos :', todos);
+
+todos.push('item4');
+console.log(todos);
+todos.push('item5');
+
+todos[3] = 'item4 updated';
+
+todos.splice(0, 1);
+console.log(todos);
